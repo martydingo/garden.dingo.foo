@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "dingo.foo/garden",
+    baseUrl: "garden.dingo.foo",
     ignorePatterns: ["private", "templates", ".obsidian", "README.md", ".git"],
     defaultDateType: "created",
     theme: {
