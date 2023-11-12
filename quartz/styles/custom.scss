@@ -1,3 +1,75 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+}
+
+.subgraph {
+    stroke: #293136 !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="subgraph-lvl-0"] {
+    fill: #171c2844 !important;
+    stroke: #c3a6ff !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="subgraph-lvl-1"] {
+    fill: #1d243344 !important;
+    stroke: #5ccfe6 !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="subgraph-lvl-2"] {
+    fill: #2f3b5444 !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="subgraph-lvl-3"] {
+    fill: #1d243344 !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="basic"] {
+    fill: #2f3b54 !important;
+    /* stroke: #2f3b54 !important; */
+    stroke: #ffcc66 !important;
+    stroke-width: 0.5px !important;
+}
+
+rect[class*="Label"] {
+    color: #d3c6aa !important;
+}
+
+.edgePath .path {
+    stroke: #bae67e99 !important;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.marker {
+    stroke: #bae67e99 !important;
+    fill: #bae67e99 !important;
+    opacity: 1;
+}
+
+*[class*="Label"] {
+    color: #d7dce2 !important;
+    /* z-index: 1;
+      position: relative; */
+}
+
+// span.nodeLabel {
+//     // text-wrap: wrap !important;
+//     // overflow-wrap: break-word !important;
+//     // white-space: pre-line !important;
+//     // word-break: break-word !important;
+//     // font-size: 0.8em !important;
+// }
+
+// foreignObject {
+//     overflow-block: visible !important;
+// }
